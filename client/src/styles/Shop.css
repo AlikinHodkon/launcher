@@ -1,0 +1,9 @@
+.shopTitle{
+    color: white;
+    text-align: center;
+}
+
+.gameList {
+    display: flex;
+    flex-wrap: wrap;
+}

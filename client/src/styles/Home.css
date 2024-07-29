@@ -1,0 +1,80 @@
+*{
+    background-color: #181818;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.mainTitle{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4em;
+    margin-top: 15vh;
+}
+
+.text {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1,75em;
+    margin-top: 7vh;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+#butPlay{
+    background-color: #4452FE;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1,75em;
+    color: white;
+    width: 178px;
+    height: 65px;
+    border: 2px solid #4452FE;
+    margin-right: 1vw;
+    transition: all 0.5s;
+}
+
+#butPlay:hover{
+    border: 2px white solid;
+    width: 200px;
+    font-size: 2em;
+    transition: all 0.5s;
+}
+
+#butLearn{
+    border: 2px solid white;
+    background-color: #181818;
+    color:white;
+    font-size: 1,75em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 178px;
+    height: 65px;   
+    margin-left: 1vw;
+    transition: all 0.5s;
+}
+
+#butLearn:hover{
+    border: 2px solid #4452FE;
+    width: 200px;
+    font-size: 2em;
+    transition: all 0.5s;
+}
+
+header img{
+    width: 25vw;
+    height: 25vh;
+}

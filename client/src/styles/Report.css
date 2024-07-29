@@ -1,0 +1,84 @@
+.formWrapper{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25vh;
+    border: 2px solid #4452FE;;
+    border-radius: 20px;
+    width: 25vw;
+    height: 50vh;
+}
+
+form h1{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1,75em;
+}
+
+form label{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1,75em;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
+
+#nameReport{
+    border: 2px solid white;
+    width: 15vw;
+    height: 25px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1,75em;
+}
+
+form input[type="submit"]{
+    color: white;
+    background-color: #4452FE;
+    width: 12vw;
+    height: 25px;
+    margin-top: 5vh;
+    margin-bottom: 4vh;
+    border-radius: 20px;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1,75em;
+}
+
+form select{
+    border: 2px solid white;
+    width: 15vw;
+    height: 25px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1,75em;
+}
+
+form textarea{
+    width: 15vw;
+    resize: vertical;
+    color: white;
+    border: 2px solid white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1,75em;
+}
