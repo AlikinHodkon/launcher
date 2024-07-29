@@ -24,3 +24,5 @@ yarn-error.log*
 
 #
 *.sql
+server/db.js
+server/service/mail-service.js
